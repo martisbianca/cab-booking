@@ -138,7 +138,7 @@ function App() {
 
       {data.map((b) => (
         <div key={b.id} style={{ border: "1px solid black", margin: "10px", padding: "10px" }}>
-          <p><b>Booking ID:</b> {b.id}</p> 
+          <p>{b.id}</p> 
           <p>{b.pickup} → {b.drop}</p>
           <p>{b.dateTime}</p>
           <p>{b.vehicle}</p>
